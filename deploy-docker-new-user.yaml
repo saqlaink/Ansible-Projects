@@ -18,7 +18,7 @@
         url: https://github.com/docker/compose/releases/download/1.27.4/docker-compose-Linux-{{lookup('pipe', 'uname -m')}}
         dest: /usr/local/bin/docker-compose
         mode: +x
-    - name: Start docker
+    - name: Start docker daemon
       systemd:
         name: docker
         state: started   
