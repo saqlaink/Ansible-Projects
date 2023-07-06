@@ -1,6 +1,6 @@
 # Ansible-Projects
 
-1. Automate Nexus Deployment
+1. Automate Nexus Deployment<br />
   ❏ Created DigitalOcean Droplet
   ❏ Adjusted hosts file
   ❏ Written Play “Install java and net-tools”
